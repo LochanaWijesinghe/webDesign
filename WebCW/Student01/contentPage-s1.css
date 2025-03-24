@@ -1,0 +1,131 @@
+body{
+    background-color: antiquewhite;
+    z-index: -100;
+}
+
+h1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(54, 54, 110);
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links{
+    background-color: rgb(185, 159, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.links a{
+   color: rgb(77, 8, 8);
+    background-color: rgb(185, 159, 125);
+    margin: 20px;
+    
+}
+
+.content1{
+    display: flex;
+    background-color: rgb(189, 189, 155);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content1:hover {
+    transform: scale(1.02);
+}
+
+.content2{
+    display: flex;
+    background-color: rgb(185, 159, 125);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content2:hover {
+    transform: scale(1.02);
+}
+
+.content3{
+    display: flex;
+    background-color: rgb(189, 189, 155);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content3:hover {
+    transform: scale(1.02);
+}
+
+.content4{
+    display: flex;
+    background-color: rgb(185, 159, 125);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content4:hover {
+    transform: scale(1.02);
+}
+
+.content5{
+    display: flex;
+    background-color: rgb(189, 189, 155);
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.content5:hover {
+    transform: scale(1.02);
+}
+
+.image img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+.description {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    line-height: 45px;
+   
+}
+
+.description .details{
+    font-size: 20px;
+}
+
+.description .name{
+    font-size: 30px;
+}
+
+.editorpage{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
